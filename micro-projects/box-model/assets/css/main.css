@@ -1,0 +1,50 @@
+:root {
+  --clr-bckgr-base: rgb(238, 232, 198);
+  --clr-bckgr-info: rgb(252, 247, 247);
+  --clr-bckgr-text: white;
+  --clr-border: green;
+}
+
+/* Remove all indents */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1.5rem;
+  background-color: var(--clr-bckgr-base);
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+  margin: 1em;
+}
+
+.formatted {
+  font-style: italic;
+  background-color: var(--clr-bckgr-info);
+  border: 3px solid var(--clr-border);
+  margin: 0 1em;
+  padding: 0.5em;
+}
+
+.formatted p {
+  padding: 0.25em 0;
+} 
+
+.formatted h3 {
+  text-align: center;
+  margin: 0.5em;
+}
+
+#controls,
+#button {
+  margin: 1em;
+}
+
+#demo {
+  background-color: var(--clr-bckgr-text);
+}
